@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ahorcado</title>
+    <link href="http://fonts.cdnfonts.com/css/sf-pixelate" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h4>Sitio con modo oscuro</h4>
+        <label class="switch">
+            <input type="checkbox" id="slider" checked>
+            <span class="slider"></span>
+        </label>
+    </header>
+
+    <h1>Descubrí la palabra escondida</h1>
+    <div>
+        <canvas id="canvas"></canvas>
+        <div id="usedLetters"></div>
+    </div>
+    <div id="wordContainer"></div>
+    <button id="startButton">Listo</button>
+
+   
+
+
+    <script src="palabras.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>

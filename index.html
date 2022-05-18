@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+  </head>
+    <title>Memotest</title>
+</head>
+<body>
+
+    <main>
+        <section class="section1">
+            <h1>A practicar la memoria</h1>
+            <table>
+                <tr>
+                  <td><button id="0" onclick="descubrir(0)"></button></td>
+                  <td><button id="1" onclick="descubrir(1)"></button></td>
+                  <td><button id="2" onclick="descubrir(2)"></button></td>
+                  <td><button id="3" onclick="descubrir(3)"></button></td>
+                </tr>
+                <tr>
+                    <td><button id="4" onclick="descubrir(4)"></button></td>
+                    <td><button id="5" onclick="descubrir(5)"></button></td>
+                    <td><button id="6" onclick="descubrir(6)"></button></td>
+                    <td><button id="7" onclick="descubrir(7)"></button></td>
+                  </tr>
+                  <tr>
+                    <td><button id="8" onclick="descubrir(8)"></button></td>
+                    <td><button id="9" onclick="descubrir(9)"></button></td>
+                    <td><button id="10" onclick="descubrir(10)"></button></td>
+                    <td><button id="11" onclick="descubrir(11)"></button></td>
+                  </tr>
+                  <tr>
+                    <td><button id="12" onclick="descubrir(12)"></button></td>
+                    <td><button id="13" onclick="descubrir(13)"></button></td>
+                    <td><button id="14" onclick="descubrir(14)"></button></td>
+                    <td><button id="15" onclick="descubrir(15)"></button></td>
+                  </tr>
+            </table>
+
+        </section>
+
+        <section class="section2">
+            <h2 id="aciertos" class="estadisticas">Aciertos: 0</h2>
+            <h2 id="t-restante" class="estadisticas">Tiempo: 30 segundos</h2>
+            <h2 id="movimientos" class="estadisticas">Movimientos: 0 </h2>
+        </section>
+
+    </main>
+
+    <div class="container">
+        <form id="formUsuario">
+            <div class="mb-3">
+              <label for="idNombre" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="idNombre">
+            </div>
+            <div class="mb-3">
+                <label for="idApellido" class="form-label">Apellido</label>
+                <input type="text" class="form-control" id="idApellido">
+              </div>
+              <div class="mb-3">
+                <label for="idEdad" class="form-label">Edad</label>
+                <input type="number" class="form-control" id="idEdad">
+              </div>
+            <button type="submit" class="btn btn-primary">Crear Usuario</button>
+          </form>
+    </div> <br> <br>
+
+    <button id="botonPersonas" class="btn btn-dark">Mostrar Usuario</button>
+    <div id="divUsuario" class="row"></div>
+
+    <footer>
+        <p>Diseñado por <a href="https://www.linkedin.com/in/vanesa-navarro/">Vanesa Navarro</a></p>
+    </footer>
+
+    <script src="main.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</body>
+</html>
